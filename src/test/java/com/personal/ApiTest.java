@@ -16,7 +16,6 @@ public class ApiTest {
         Response response = apiClass.getBookingDetailsById(bookingId);
         response.prettyPrint();
         assertEquals(200, response.getStatusCode(), "Status Code didn't match");
-//Nothing to change
     }
 
 }
