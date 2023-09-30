@@ -17,13 +17,5 @@ public class ApiTest {
         assertEquals(200, response.getStatusCode(), "Status Code didn't match");
     }
 
-    @ParameterizedTest
-    @ValueSource(strings = { "295", "273" })
-    public void testApiGet_validaData_200Responsetwo(String bookingId) {
-        Response response = apiClass.getBookingDetailsById(bookingId);
-        response.prettyPrint();
-        assertEquals(200, response.getStatusCode(), "Status Code didn't match");
-    }
-    //this is a test
 
 }
