@@ -18,5 +18,6 @@ public class PerformTask {
     public static void main(String[] args) {
         performSomeTask(100, callback);
     }
+    //Just a fun comment
 
 }
